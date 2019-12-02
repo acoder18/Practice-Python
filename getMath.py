@@ -18,9 +18,7 @@ answer = num1 + num2
 
 yourAnswer = int(input())
 
-while True:
-    if answer != yourAnswer:
-        # print ("Nope")
-        continue
-    else:
-        print  ("Awesome")
+if answer != yourAnswer:
+    print ("Nope Ista")
+else:
+    print  ("Awesome")
